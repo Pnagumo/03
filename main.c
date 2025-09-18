@@ -5,14 +5,15 @@
 
 int main(int argc, char *argv[]) {
 	
-	//ex 3.
-	char c, d;
+	int numerator, denominator;
 	
-	printf("enter a character : ");
-	scanf("%c", &c);
+	printf("enter numerator:");
+	scanf("%d", &numerator);
 	
-	d = c + 1;
-	printf("The next character of %c (%i) is %c (%i).\n",c, c, d, d);
+	printf("enter denominator:");
+	scanf("%d", &denominator);
+	
+	printf("The result is %f\n", (float)denominator/numerator);
 	
 	return 0;
 }
